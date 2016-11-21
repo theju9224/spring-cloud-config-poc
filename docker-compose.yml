@@ -1,0 +1,14 @@
+version: '2'
+services:
+  config-server:
+    build: config-server/
+    image: sarp/config-server
+    ports:
+      - "8888:8888"
+  config-client:
+    build: config-client/
+    image: ddubson/config-client
+    depends_on:
+      - config-server
+    ports:
+      - "8000:8000"

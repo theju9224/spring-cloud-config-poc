@@ -1,0 +1,8 @@
+
+   Problems with the Status Quo
+   
+   * Local configuration files fall out of sync
+   * No history of changes with existing variables
+   * Configuration change require RESTART
+   * Challenges with sensitive infos
+   * Inconsistent usage accross team
