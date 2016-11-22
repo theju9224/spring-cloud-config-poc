@@ -7,7 +7,7 @@ services:
       - "8888:8888"
   config-client:
     build: config-client/
-    image: ddubson/config-client
+    image: sarp/config-client
     depends_on:
       - config-server
     ports:
